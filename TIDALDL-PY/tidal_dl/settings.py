@@ -13,7 +13,7 @@ import aigpy
 import base64
 
 from lang.language import *
-from enums import *
+from .enums import *
 
 
 class Settings(aigpy.model.ModelBase):

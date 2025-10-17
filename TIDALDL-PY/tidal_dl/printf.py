@@ -14,11 +14,11 @@ import aigpy
 import logging
 import prettytable
 
-import apiKey as apiKey
+from . import apiKey
 
-from model import *
-from paths import *
-from settings import *
+from .model import *
+from .paths import *
+from .settings import *
 from lang.language import *
 
 

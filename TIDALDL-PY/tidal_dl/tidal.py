@@ -16,8 +16,8 @@ from xml.etree import ElementTree
 
 import requests
 
-from model import *
-from settings import *
+from .model import *
+from .settings import *
 
 # SSL Warnings | retry number
 requests.packages.urllib3.disable_warnings()
